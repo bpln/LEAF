@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Free xhtml template - minimalistic-design.com</title>	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+
+	<div id="page">
+
+		<div id="header">
+		<h1><a href="#">SocialMix</a></h1>
+			<h2>  A trusted anonymous social network service</h2>
+		</div>
+
+		<div id="wrapper">
+
+			<div id="content">
+
+				<h2>Overview</h2>
+				<div id="index_image">
+					<img src="figures/index_figure_200.jpg" alt="index_image" />
+				</div>
+				<b><big>SocialMix</big></b> is  a trusted anonymous social network service that can anonymize user identities during interaction even though the communication happens with the user’s own trusted friends and contacts on the social network.
+				<br /><br />
+				We make three original contributions:
+				<ul>
+					<li>We develop the SocialMix model for trusted anonymous social networks so that communication privacy can be protected by k-anonymization.</li>
+					<li>By considering the features of OSNs, we analyze the vulnerabilities of the naive methods that might be exploited to break the privacy. We develop new techniques to improve the attack-resilience of the SocialMix approach.</li>
+					<li>We propose intelligent mix node selection methods to significantly reduce the required number of social mix nodes while still keeping high anonymization rate.</li>
+
+				</ul> 
+				<br /><br />
+				
+				<h2>Motivation</h2> 
+				<p>
+				Though the ID and Profile can be anonymized, the accumulated posted messages can be collected to re-identify the sender. The success rate depends on the background knowledge of the adversaries, which is always strong in trusted anonymous OSNs because the sender has a friendship with them.
+				<div id="motivation1">
+					<img src="figures/motivation1.jpg" alt="motivation1" />
+				</div>
+				</p>
+
+				<h2>Idea</h2> 
+				<div><b>Goal:</b> We aim at ensuring high degree of user privacy while keeping communicating over a trusted over anonymous social network.</div>
+				<div><b>Idea:</b> Shuffle the messages through message aggregation so that the relationship between the content of a message and the poster’s identity can be anonymized and perturbed.</div>
+				<div id="motivation2">
+					<img src="figures/motivation2.jpg" alt="motivation2" />
+				</div>
+				
+				<br /><br />
+				<br /><br />
+				<br /><br />
+				<br /><br />
+				<br /><br />
+				<br /><br />
+				<br /><br />
+				<br /><br />
+				<br /><br />
+
+				
+				<h2>SocialMix network - an example</h2> 
+				<p>
+					<ul>
+						<li>Suppose we have a network with 10 nodes.</li>
+						<li>A,B,I,J send messages to D,H.</li>
+						<li>&lt;t<sub>A</sub>,A,M<sub>A</sub>&gt; stands for node A sends message M<sub>A</sub>  at time t<sub>A</sub>.</li>
+						<li>D,H work as event-driven Mix nodes, also called pre-mix nodes.</li>
+						<li>Node E works as intermediate mix node, also called post-mix node.</li>
+					</ul>
+				</p>
+				<div id="network">
+					<img src="figures/network.jpg" alt="network" />
+				</div>
+				
+
+				<h2 id="publications">Publications</h2> 
+				<ul>
+					<li>Chao Li, Balaji Palanisamy and James Joshi, "SocialMix: Supporting Privacy-aware Trusted Social Networking Services", Proc. of 23rd IEEE International Conference on Web Services (<b>ICWS 2016</b>), San Francisco, USA.[<a href="http://www.sis.pitt.edu/bpalan/papers/ICWS2016.pdf">PDF</a>]</li>
+				</ul>
+				
+
+			</div>
+
+			<div id="sidebar"> 
+
+				<h2>Menu Navigation</h2>
+
+				<ul>
+					<li><a href="index.html">Overview</a></li> 
+					<li><a href="downloads.html">Downloads</a></li> 
+					<li><a href="people.html">People</a></li> 
+					<li><a href="index.html#publications">Publications</a></li>
+				</ul>
+
+				<h2>Useful Resources</h2>
+
+				<ul>
+					<li><a href="https://networkdata.ics.uci.edu/data.php?id=105">Datasets: Zachary's Karate Club</a></li>  
+				</ul>
+
+			</div>
+
+			<div style="clear: both;"> </div>
+
+		</div>
+
+		<div id="footer">
+			<p>
+				Design by <a href="http://www.minimalistic-design.com">Minimalistic Design</a>
+			</p>
+		</div>
+
+	</div>
+
+
+</body>
+
+</html>
+
